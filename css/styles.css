@@ -45,19 +45,29 @@ nav bar color
 
 .hero {
     height: calc(40vh - 20px);
-     background: #999;
+     /* background: #999; */
      background-size: cover;
     background-image: url('../img/iPhone-X-23-2.jpg');
     background-position: center;
     padding: 10px;
 }
 
-.hero-container p {
-    color:white;
+.headline {
+    color:#111;
     text-align: center;
-    font-weight: 400;
-    font-family: Futura,"Helvetica","Arial",sans-serif;
+    font-weight:bolder 700;
+    font-family: "SF Pro Display","SF Pro Icons","Helvetica Neue","Helvetica","Arial",sans-serif;
+
+
 }
+
+h3 {
+    color: black;
+    text-align: center;
+    font-weight:normal;
+
+}
+
 
 /**************************************************************************
 Footer Section
