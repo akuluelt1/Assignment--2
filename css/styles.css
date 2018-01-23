@@ -7,29 +7,49 @@ nav bar color
 
 
  header {
-      height: 120px;
-      background: #25211e;
-      padding-top: 100px ;
+     height: 60px;
+     background: #161616;
+     padding-top: 4px;
+ }
+
+
+ ul{
+     padding:0;
+
+ }
+ a{
+     font-family: 'Oswald', sans-serif;
+     text-transform: uppercase;
+ }
+ li{
+     list-style: none;
   }
+ /**************************************************************************
 
-/* .logo {
-    font-family: Futura,"Helvetica","Arial",sans-serif;
-    text-align: center;
-    color: #c1b497;
-    height:25px;
-} */
+ ***************************************************************************/
+.desktop-nav ul {
+    float: right;
+    margin-top: 10px;
+    width: calc(100% - 60px);
+    text-align: right;
+}
 
-/* header .logo {
-    background-image: url('../images/sprite-standard.png');
-} */
+.desktop-nav li {
+    display: inline-block;
+    margin-left: 25px;
+}
+
+/**************************************************************************
+
+***************************************************************************/
 
 .hero {
-    height: calc(80vh - 40px);
+    height: calc(40vh - 20px);
      background: #999;
      background-size: cover;
-    background-image: url('../img/homepageHeroHeaderStandard_CNY-01-black_001_Default.jpg');
+    background-image: url('../img/iPhone-X-23-2.jpg');
     background-position: center;
-    padding: 4px;
+    padding: 10px;
 }
 
 .hero-container p {
@@ -37,4 +57,26 @@ nav bar color
     text-align: center;
     font-weight: 400;
     font-family: Futura,"Helvetica","Arial",sans-serif;
+}
+
+/**************************************************************************
+Footer Section
+***************************************************************************/
+footer {
+    height: 400px;
+    background:white;
+    padding:80px 0;
+
+}
+footer a{
+    color:#25211e;
+    font-size: 0.8em;
+    line-height: 3;
+}
+.social-icon li{
+    display: inline-block;
+}
+.social-icon i{
+    font-size:2em;
+    margin-right: 5px;
 }
