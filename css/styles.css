@@ -18,7 +18,7 @@ nav bar color
 
  }
  a{
-     font-family: 'Oswald', sans-serif;
+     font-family: 'Poppins', sans-serif;
      text-transform: uppercase;
  }
  li{
@@ -44,28 +44,28 @@ nav bar color
 ***************************************************************************/
 
 .hero {
-    height: calc(40vh - 20px);
-     /* background: #999; */
-     background-size: cover;
-    background-image: url('../img/iPhone-X-23-2.jpg');
+    height: calc(100vh - 80px);
+    background: #999;
+    background-image: url('../img/hero-large.jpg');
+    background-size: cover;
     background-position: center;
-    padding: 10px;
+    color:white;
+    text-align: center;
+}
+.hero-text-conatiner {
+    padding-top: 40vh;
 }
 
-.headline {
-    color:#111;
-    text-align: center;
-    font-weight:bolder 700;
-    font-family: "SF Pro Display","SF Pro Icons","Helvetica Neue","Helvetica","Arial",sans-serif;
-
-
+.hero-text-conatiner h1{
+    font-family: 'Poppins', sans-serif;
+    font-size: 32px;
+    margin-bottom:20px;
 }
 
-h3 {
-    color: black;
-    text-align: center;
-    font-weight:normal;
-
+.hero-text-conatiner p{
+    font-family: 'Poppins', sans-serif;
+    font-size: 16px;
+    margin-bottom: 40px;
 }
 
 
