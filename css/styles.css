@@ -3,100 +3,244 @@ nav bar color
 #727272
 
  */
+ h1, h2, h3,h4 {
+   font-family: 'Roboto', sans-serif;
+ }
 
+ h1 {
+     font-size: 100px;
+     font-weight: 900;
+ }
 
+ h2 {
+     font-size: 50px;
+     font-weight: 700;
+ }
 
- header {
-     height: 60px;
-     background: #161719;
-     padding-top: 4px;
+ h3 {
+     font-size: 36px;
+     font-weight: 700;
+ }
+ h4{
+     font-size: 24px;
+     font weight: 100;
+ }
+
+ p {
+   font-family: 'Roboto', sans-serif;
+   font-size: 50px;
+
  }
 
 
+ }
 
 
+ .logo {
+     height: 80px;
+     width: 80px;
+     background-size: 40px;
+ }
  ul{
      padding:0;
 
  }
  a{
-     font-family: 'Poppins', sans-serif;
+   font-family: 'Roboto', sans-serif;
      text-transform: uppercase;
  }
  li{
+   letter-spacing: 0.1;
      list-style: none;
+     font-family: 'Roboto', sans-serif;
+     display: inline-block;
+     position: relative;
+     padding: 0 20px;
+
+
   }
- /**************************************************************************
-
- ***************************************************************************/
-.desktop-nav ul {
-    float: right;
-    margin-top: 10px;
-    width: calc(100% - 60px);
-    text-align: right;
-}
-
-.desktop-nav li {
-    display: inline-block;
-    margin-left: 25px;
-}
-
-/**************************************************************************
-        HERO SECTION
-***************************************************************************/
-
-.hero {
-    height: calc(100vh - 10px);
-    background: #999;
-    background-image: url('../img/rahul-chakraborty-460018.jpg');
-    transition-duration: 0.2s;
-    background-size: cover;
-    background-position: center;
-    color:white;
-    text-align: center;
-}
-.hero-text-conatiner {
-    padding-top: 40vh;
-}
-
-.hero-text-conatiner h1{
-    font-family: 'Poppins', sans-serif;
-    font-size: 100px;
-    margin-bottom:20px;
-}
-
-.hero-text-conatiner p{
-    font-family: 'Poppins', sans-serif;
-    font-size: 30px;
-    margin-bottom: 40px;
-}
-
-@media (max-width:700px) {
-.hero {
-    background
-}
-
-}
 
 
-/**************************************************************************
-Footer Section
-***************************************************************************/
-footer {
-    height: 400px;
-    background:white;
-    padding:80px 0;
 
-}
-footer a{
-    color:#25211e;
-    font-size: 0.8em;
-    line-height: 3;
-}
-.social-icon li{
-    display: inline-block;
-}
-.social-icon i{
-    font-size:2em;
-    margin-right: 5px;
-}
+ /* * * * * * * * * * * * * * * * * * * * *
+ Header Styles
+ * * * * * * * * * * * * * * * * * * * * */
+ /* General */
+
+ header {
+     height: 60px;
+     background: #333;
+     background: rgba(0, 0, 0, 0.8);
+     padding-top: 4px;
+     opacity: 1.0;
+
+ }
+
+
+
+
+ /*desktop nav*/
+
+ .desktop-nav ul {
+     float: right;
+     margin-top: 5px;
+     width: calc(100% - 60px);
+     text-align: right;
+ }
+
+ .desktop-nav li {
+     display: inline-block;
+     margin-left: 25px;
+ }
+
+ .desktop-nav a,
+ .desktop-nav a:visited {
+     color: white;
+
+
+ }
+
+ .desktop-nav a:hover,
+ .desktop-nav a:focus,
+ .desktop-nav a:active {
+     opacity: 0.9;
+     color: white;
+     text-decoration: none;
+ }
+
+ .desktop-nav .logo {
+     float: left;
+ }
+
+ .fa-apple {
+     float: left;
+ }
+
+ /* MObile nav */
+
+ .mobile-nav {
+     display: none;
+     text-align: center;
+
+ }
+
+ .mobile-nav .logo {
+     display: inline-block;
+ }
+
+ .mobile-nav .hamburger-container,
+ .mobile-nav .search-container {
+     vertical-align: top;
+     margin-top:8px;
+     width: 40px;
+     display: inline-block;
+     margin-left: -4px;
+ }
+
+ .mobile-nav .logo-container {
+     display: inline-block;
+     margin-left: -4px;
+     width: calc(100% - 80px);
+ }
+
+ .mobile-nav button {
+     background: transparent;
+     border: none;
+     color: white;
+ }
+
+
+
+ @media (max-width: 768px) {
+     .mobile-nav {
+         display: block;
+     }
+
+     .desktop-nav {
+         display: none;
+     }
+ }
+
+ /*Hero styles  */
+
+ .hero {
+     height: calc(100vh - 80px);
+     background: #999;
+     background-image: url('../img/tyler-lastovich-453203.jpg');
+     background-size: cover;
+     background-position: center;
+     color:white;
+     text-align: center;
+ }
+ .hero-text-conatiner {
+     padding-top: 40vh;
+ }
+
+ .hero-text-conatiner h1{
+   align:center;
+     font-size: 40px;
+     margin-bottom:10px;
+ }
+
+ .hero-text-conatiner p{
+     font-size: 20px;
+     margin-bottom: 40px;
+ }
+
+ @media (max-width:700px){
+ .hero{
+     height:30%;
+     width:100%
+ }
+ }
+
+
+
+ /*Product lineup  */
+
+ .product-lineup-container {
+     height: 400px;
+     background: #333;
+ }
+
+
+ /*featured product  */
+
+ .featured-product-container {
+     height: 400px;
+     background: #444;
+ }
+
+
+ /*product support  */
+
+ .product-support-container {
+     height: 400px;
+     background: #555;
+ }
+
+
+ /*subscription */
+
+ .subscription-container {
+     height: 400px;
+     background: #666;
+ }
+
+
+ /* Footer */
+ footer {
+     height: 400px;
+     background:white;
+     padding:80px 0;
+
+ }
+ footer a{
+     color:#a6a6a6;
+     font-size: 0.8em;
+     line-height: 3;
+ }
+  li{
+     display: inline-block;
+     padding: 10px;
+ }
