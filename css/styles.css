@@ -69,10 +69,9 @@ nav bar color
 
  header {
      height: 60px;
-     background: #333;
-     background: rgba(0, 0, 0, 0.8);
+     background: #fff;
      padding-top: 4px;
-     opacity: 1.0;
+     /* opacity: 1.0; */
 
  }
 
@@ -80,6 +79,7 @@ nav bar color
 
 
  /*desktop nav*/
+
 
  .desktop-nav ul {
      float: right;
@@ -95,7 +95,7 @@ nav bar color
 
  .desktop-nav a,
  .desktop-nav a:visited {
-     color: white;
+     color: #000000;
 
 
  }
@@ -164,9 +164,9 @@ nav bar color
  /*Hero styles  */
 
  .hero {
-     height: calc(100vh - 80px);
+     height: calc(100vh - 5px);
      background: #999;
-     background-image: url('../img/tyler-lastovich-453203.jpg');
+     background-image:url('../img/grant-ritchie-441326.jpg');
      background-size: cover;
      background-position: center;
      color:white;
@@ -187,52 +187,44 @@ nav bar color
      margin-bottom: 40px;
  }
 
+
  @media (max-width:700px){
  .hero{
      height:30%;
      width:100%
  }
  }
-
-
-
  /*Product lineup  */
 
- .product-lineup-container {
-     height: 400px;
-     background: #333;
- }
+.product-lineup-container {
+    height: 400px;
+    background: #333;
+}
 
 
- /*featured product  */
+/*featured product  */
 
- .featured-product-container {
-     height: 400px;
-     background: #444;
- }
-
-
- /*product support  */
-
- .product-support-container {
-     height: 400px;
-     background: #555;
- }
+.featured-product-container {
+    height: 400px;
+    background: #444;
+}
 
 
- /*subscription */
+/*product support  */
 
- .subscription-container {
-     height: 400px;
-     background: #666;
- }
+.product-support-container {
+    height: 400px;
+    background: #555;
+}
 
 
  /* Footer */
+
+ }
  footer {
-     height: 400px;
+     height: 200px;
      background:white;
-     padding:80px 0;
+     padding-left: 0 ;
 
  }
  footer a{
